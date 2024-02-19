@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- tailwind daisyui-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--tailwind custom color-->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+   <header class="md:container md:mx-auto">
+    <nav>
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost ">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-4xl">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu text-base menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="">
+              <a class="btn bg-green-100  text-green-600"> Bus <img src="B9A5-smart-ticketing-main/images/bus-icon.png" alt=""></a>
+            </div>
+          </div>
+        </nav>
+   </header>
+   <main>
+    <section class="p-20 w-full ">
+      <div class="hero min-h-screen shadow-3xl w-full rounded-3xl" style="background-image: url(B9A5-smart-ticketing-main/images/banner.png);">
+        <div class="hero-overlay "></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-4xl font-bold">End-to End-Travel with <br><span class="text-green-500">P Paribahan</span> </h1>
+            <p class="mb-5">A passionate Travel Planner & Experienced Solo Women Traveller. Hi visitors! welcome to my website. </p>
+            <button class="btn bg-green-500">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="p-20 flex-1 ">
+        <h2 class="text-center font-extrabold text-3xl">Best offers for you</h2>
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-20">
+          <!--first card-->
+          <div class="card p-8 h-40 w-96 bg-yellow-300 shadow-xl">
+            <figure></figure>
+            <div class="card-body justify-center">
+              <h2 class="text-2xl font-bold"> 15% OFF </h2>
+              <p>on your purchase <br><span class="text-gray-400">use by january 2024</span></p>
+              
+            </div>
+            </div>
+  <div class="p-20 flex-1">
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-20 top-50">
+      <!--first card-->
+      <div class="card p-8 h-40 w-96 bg-pink-400 shadow-xl">
+        <figure></figure>
+        <div class="card-body justify-center">
+          <h2 class="text-2xl font-bold"> 15% OFF </h2>
+          <p>on your purchase <br><span class="text-gray-400">use by january 2024</span></p>
+          <div class="circle1  left: -25px;"></div>
+            <div class="circle2  right: -25px;"></div>
+        </div>
+        <button class="flex btn text-green-500">Buy Tickets</button>
+            </div>
+          
+  
+  
+  
+    
+  </section>
+
+   </main>
+    
+</body>
+</html>
